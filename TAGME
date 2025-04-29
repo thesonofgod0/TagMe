@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Tag Me, your social media sidekick</h1>
+        <p>Generate captions. Perfect your feed. Be on time. Get noticed.</p>
+        <button id="cta">Sign up for free</button>
+    </header>
+
+    <section class="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Generate creative captions based on keywords.</li>
+            <li>Perfect your Instagram/TikTok grid aesthetic.</li>
+            <li>Post scheduler for optimal timings.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tag Me. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    background-color: #8b5e3c; /* Coffee brown */
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #d0c1b0; /* Cotton brown */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b09c7a; /* Darker cotton brown */
+}
+
+.features {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #8b5e3c;
+    color: white;
+    padding: 20px 0;
+}
+document.getElementById('cta').addEventListener('click', function() {
+    alert("You're ready to sign up!");
+});
